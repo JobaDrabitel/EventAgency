@@ -9,7 +9,8 @@ namespace WpfApp5.Model
     [Table("Specialization")]
     public partial class Specialization
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [StringLength(120)]

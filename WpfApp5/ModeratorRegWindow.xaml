@@ -15,7 +15,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0" HorizontalAlignment="Right">
             <Label Height="36">Id Number:</Label>
-            <Label Height="36" > ФИО:</Label>
+            <Label Height="36" >ФИО:</Label>
             <Label Height="36" >Пол:</Label>
             <Label Height="36" >Роль:</Label>
             <Label Height="36" >Email:</Label>

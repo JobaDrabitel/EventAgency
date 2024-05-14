@@ -42,7 +42,7 @@ namespace WpfApp5
                 authWindow.Show();
                 this.Close();
             }
-            
+
         }
     }
 }

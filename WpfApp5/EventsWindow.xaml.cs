@@ -27,8 +27,8 @@ namespace WpfApp5
             {
                 Events = db.Event.Include("City").ToList();
             }
-            this.Resources.Add("k" , Events);
-                InitializeComponent();
+            this.Resources.Add("k", Events);
+            InitializeComponent();
         }
     }
 }

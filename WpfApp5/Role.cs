@@ -15,7 +15,7 @@ namespace WpfApp5
     }
     public enum Gender
     {
-        M,
-        F
+        м,
+        ж
     }
 }
