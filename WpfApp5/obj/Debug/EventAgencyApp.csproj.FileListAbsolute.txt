@@ -1,0 +1,144 @@
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe.config
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\bin\Debug\WpfApp5.pdb
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\bin\Debug\EntityFramework.dll
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\bin\Debug\EntityFramework.xml
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.AssemblyReference.cache
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\AuthWindow.g.cs
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\App.g.cs
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.cache
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.lref
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\AuthWindow.baml
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.g.resources
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Properties.Resources.resources
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.GenerateResource.cache
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CoreCompileInputs.cache
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CopyComplete
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.exe
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.pdb
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.g.cs
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.g.cs
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.g.cs
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.baml
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.baml
+C:\Users\STUD\source\repos\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.baml
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe.config
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\bin\Debug\WpfApp5.pdb
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\bin\Debug\EntityFramework.dll
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.dll
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\bin\Debug\EntityFramework.xml
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.xml
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.AssemblyReference.cache
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.SuggestedBindingRedirects.cache
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\AuthWindow.g.cs
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.g.cs
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.g.cs
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.g.cs
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\App.g.cs
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.cache
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.lref
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\AuthWindow.baml
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.baml
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.baml
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.baml
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\WpfApp5.g.resources
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Properties.Resources.resources
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.GenerateResource.cache
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CoreCompileInputs.cache
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CopyComplete
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\WpfApp5.exe
+C:\Zheka\Ucheba\WpfApp5\WpfApp5\obj\Debug\WpfApp5.pdb
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe.config
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\bin\Debug\WpfApp5.pdb
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\bin\Debug\EntityFramework.dll
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\bin\Debug\EntityFramework.xml
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.AssemblyReference.cache
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\AuthWindow.g.cs
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.g.cs
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.g.cs
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.g.cs
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\App.g.cs
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.cache
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.lref
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\AuthWindow.baml
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.baml
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.baml
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.baml
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\WpfApp5.g.resources
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Properties.Resources.resources
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.GenerateResource.cache
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CoreCompileInputs.cache
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CopyComplete
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\WpfApp5.exe
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\WpfApp5.pdb
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.AddCompanyMigration.resources
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\EventsWindow.g.cs
+C:\Users\STUD\Desktop\WpfApp5\WpfApp5\obj\Debug\EventsWindow.baml
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.AssemblyReference.cache
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\AuthWindow.g.cs
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\EventsWindow.g.cs
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.g.cs
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.g.cs
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.g.cs
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\App.g.cs
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.cache
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.lref
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5.exe
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5.pdb
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe.config
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\bin\Debug\WpfApp5.pdb
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\bin\Debug\EntityFramework.dll
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\bin\Debug\EntityFramework.xml
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\AuthWindow.baml
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\EventsWindow.baml
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.baml
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.baml
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.baml
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5.g.resources
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.AddCompanyMigration.resources
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Properties.Resources.resources
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.GenerateResource.cache
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CoreCompileInputs.cache
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CopyComplete
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.in2.resources
+C:\Users\STUD\Documents\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.in3.resources
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.AssemblyReference.cache
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.exe
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.pdb
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe.config
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\bin\Debug\WpfApp5.pdb
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\bin\Debug\EntityFramework.dll
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\bin\Debug\EntityFramework.xml
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\AuthWindow.g.cs
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\EventsWindow.g.cs
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.g.cs
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.g.cs
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.g.cs
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\App.g.cs
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.cache
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.lref
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\AuthWindow.baml
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\EventsWindow.baml
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\MemberRegWindow.baml
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.baml
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.baml
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.g.resources
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.AddCompanyMigration.resources
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.in2.resources
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.in3.resources
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Properties.Resources.resources
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.GenerateResource.cache
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CoreCompileInputs.cache
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\EventAge.B51A0F35.Up2Date

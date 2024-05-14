@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp5.EventsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="EventsWindow" Height="450" Width="800">
+    <Grid>
+        <ListView x:Name="listi" Margin="5" ItemsSource="{DynamicResource ResourceKey=k}">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Id}">Id</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=EventName}" Width="100">Название</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=StartDate}">Дата начала</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=DaysCount}">Дней</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=City.CityName}">Город</GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

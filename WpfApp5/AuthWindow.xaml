@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp5.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="230" Width="330" ResizeMode="NoResize" >
+    <Canvas>
+        <StackPanel Canvas.Top="20" Canvas.Left="40">
+            <Label Content="Id"/>
+            <TextBox MaxLength="10" x:Name="IdTextBox" Width="250" />
+            <Label Content="Пароль" />
+            <PasswordBox MaxLength="100" x:Name="PasswordTBox" Width="250" />
+            <StackPanel HorizontalAlignment="Left" >
+                <Button Content="Войти" Width="60" Margin="10" HorizontalAlignment="Left" x:Name="EnterButton" Click="EnterButton_Click"/>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Нет аккаунта?"/>
+                    <Button Content="Я модератор" x:Name="Reg1Button" Margin="2" Foreground="#FF1C3FB6" Click="Reg1Button_Click" />
+                    <Button Content="Я участник" x:Name="Reg2Button" Margin="2" Foreground="#FF1C3FB6" Click="Reg2Button_Click" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Canvas>
+</Window>
