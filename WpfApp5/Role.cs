@@ -9,9 +9,9 @@ namespace WpfApp5
     public enum Role
     {
         Member,
+        Organizer,
         Moderator,
-        Judge,
-        Organizer
+        Judge
     }
     public enum Gender
     {

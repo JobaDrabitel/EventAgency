@@ -46,14 +46,14 @@ namespace WpfApp5
         {
             if ((Validator.ValidateName(FullNameTextBlock.Text)&&
                 Validator.ValidateEmail(EmailTextBlock.Text)&&
-                Validator.ValidateNumber(PhoneTextBlock.Text)&&(PasswordTextBlock.Password != ""||PasswordTextBlock.MaxLength<8)))
+                Validator.ValidateNumber(PhoneTextBlock.Text)&&(PasswordTextBlock.Password != ""||PasswordTextBlock.Password.Length<8)))
             {
                 if (PasswordTextBlock.Password == Password2TextBlock.Password)
                 {
                     using (ModelEvent db = new ModelEvent())
                     {
 
-                        var user = new User() { UserName = FullNameTextBlock.Text.Trim(), Email = EmailTextBlock.Text.Trim().ToLower(), Password = PasswordTextBlock.Password, Phone = PhoneTextBlock.Text.Trim() };
+                        var user = new User() { UserName = FullNameTextBlock.Text.Trim(), Email = EmailTextBlock.Text.Trim().ToLower(), Password = PasswordTextBlock.Password, Phone = PhoneTextBlock.Text.Trim(), Role = 1 };
                         if (!db.User.Any(u => (u.Email.Trim().ToLower() == user.Email)))
                         {
                             db.User.Add(user);
@@ -79,6 +79,11 @@ namespace WpfApp5
             {
                 MessageBox.Show("Введите все необходимые поля");
             }
+        }
+
+        private void InfoButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("ФИО -- с большой буквы\nemail example@post.com\nНомер телефона -- только цифры");
         }
     }
 }

@@ -70,17 +70,9 @@
     <Compile Include="EventsWindow.xaml.cs">
       <DependentUpon>EventsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202405071049417_AddCompanyMigration.cs" />
-    <Compile Include="Migrations\202405071049417_AddCompanyMigration.designer.cs">
-      <DependentUpon>202405071049417_AddCompanyMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202405130707326_in2.cs" />
-    <Compile Include="Migrations\202405130707326_in2.designer.cs">
-      <DependentUpon>202405130707326_in2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202405130713488_in3.cs" />
-    <Compile Include="Migrations\202405130713488_in3.designer.cs">
-      <DependentUpon>202405130713488_in3.cs</DependentUpon>
+    <Compile Include="Migrations\202405142022150_in13.cs" />
+    <Compile Include="Migrations\202405142022150_in13.designer.cs">
+      <DependentUpon>202405142022150_in13.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Activity.cs" />
@@ -144,14 +136,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Migrations\202405071049417_AddCompanyMigration.resx">
-      <DependentUpon>202405071049417_AddCompanyMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202405130707326_in2.resx">
-      <DependentUpon>202405130707326_in2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202405130713488_in3.resx">
-      <DependentUpon>202405130713488_in3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202405142022150_in13.resx">
+      <DependentUpon>202405142022150_in13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

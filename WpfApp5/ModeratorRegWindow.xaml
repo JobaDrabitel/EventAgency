@@ -20,20 +20,22 @@
             <Label Height="36" >Роль:</Label>
             <Label Height="36" >Email:</Label>
             <Label Height="36" >Телефон:</Label>
-            <Label Height="36" >Направление:</Label>
-            <Label Height="36" >Направление</Label>
-            <Label Height="36" >Мероприятие:</Label>
+            <Label Height="36" >Направление (модер):</Label>
+            <Label Height="36" >Прикрепить (модер)</Label>
+            <Label Height="36" >Мероприятие :</Label>
         </StackPanel>
         <StackPanel Grid.Column="1">
             <TextBox Margin="5, 8" x:Name="IdTextBlock" Text="Автоматически" IsEnabled="False"/>
             <TextBox Margin="5, 8" x:Name="FullNameTextBlock"/>
-            <ComboBox Margin="5, 8" x:Name="SexComboBox"/>
-            <ComboBox Margin="5, 8" x:Name="RoleComboBox"/>
+            <ComboBox Margin="5, 8" x:Name="SexComboBox" ItemsSource="{DynamicResource ResourceKey=Genders}" SelectedIndex="1" />
+            <ComboBox Margin="5, 8" x:Name="RoleComboBox" ItemsSource="{DynamicResource ResourceKey=Roles}" SelectedIndex="1" SelectionChanged="RoleComboBox_SelectionChanged"/>
             <TextBox Margin="5, 8" x:Name="EmailTextBlock"/>
             <TextBox Margin="5, 8" x:Name="PhoneTextBlock"/>
-            <TextBox Margin="5, 8" x:Name="SpecTextBlock"/>
-            <CheckBox Margin="5, 8" x:Name="AddToEventCheckBox"/>
-            <ComboBox Margin="5, 8" x:Name="EventComboBox"/>
+            <StackPanel x:Name="ModerStackPanel">
+                <TextBox Margin="5, 8" x:Name="SpecTextBlock"/>
+                <CheckBox Margin="5, 8" x:Name="AddToEventCheckBox"/>
+                <ComboBox Margin="5, 8" x:Name="EventComboBox" ItemsSource="{DynamicResource ResourceKey=Events}" DisplayMemberPath="ActivityName"/>
+            </StackPanel>
         </StackPanel>
         <StackPanel Grid.Column="2" VerticalAlignment="Bottom" Margin="0, 40" HorizontalAlignment="Right">
             <Label Height="36">Пароль (8 символов):</Label>
@@ -42,8 +44,8 @@
         </StackPanel>
         <StackPanel Grid.Column="3" VerticalAlignment="Bottom">
             <Image Margin="0, 10" Width="140" Height="180"/>
-            <PasswordBox Margin="5, 8" x:Name="PasswordTextBlock"/>
-            <PasswordBox Margin="5, 8" x:Name="Password2TextBlock"/>
+            <PasswordBox Margin="5, 8" x:Name="PasswordTextBlock" MaxLength="55"/>
+            <PasswordBox Margin="5, 8" x:Name="Password2TextBlock" MaxLength="55"/>
             <Label Margin="5, 8" Content="Видимый пароль"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                 <Button Margin="10" Width="60" Content="Ok" x:Name="OkButton" Click="OkButton_Click"/>
