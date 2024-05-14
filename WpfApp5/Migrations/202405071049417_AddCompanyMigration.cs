@@ -73,7 +73,7 @@
                 "dbo.User",
                 c => new
                     {
-                        Id = c.Int(nullable: false),
+                        Id = c.Int(nullable: false, identity:true),
                         LastName = c.String(maxLength: 120),
                         FirstName = c.String(maxLength: 120),
                         Patronymic = c.String(maxLength: 120),

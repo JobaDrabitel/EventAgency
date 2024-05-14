@@ -13,7 +13,10 @@
             <Label Content="Пароль" />
             <PasswordBox MaxLength="100" x:Name="PasswordTBox" Width="250" />
             <StackPanel HorizontalAlignment="Left" >
+                <StackPanel Orientation="Horizontal">
                 <Button Content="Войти" Width="60" Margin="10" HorizontalAlignment="Left" x:Name="EnterButton" Click="EnterButton_Click"/>
+                <Button Content="Главная" Width="60" Margin="80 10 10 10" HorizontalAlignment="Right" x:Name="EventsButton" Click="EventsButton_OnClick"/>
+                </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Label Content="Нет аккаунта?"/>
                     <Button Content="Я модератор" x:Name="Reg1Button" Margin="2" Foreground="#FF1C3FB6" Click="Reg1Button_Click" />
