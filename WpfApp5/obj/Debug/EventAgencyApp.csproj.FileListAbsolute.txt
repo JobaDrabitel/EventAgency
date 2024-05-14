@@ -135,9 +135,6 @@ C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug
 C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\ModeratorRegWindow.baml
 C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\UserRegWindow.baml
 C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.g.resources
-C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.AddCompanyMigration.resources
-C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.in2.resources
-C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.in3.resources
 C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Properties.Resources.resources
 C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.GenerateResource.cache
 C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\EventAgencyApp.csproj.CoreCompileInputs.cache
@@ -171,3 +168,4 @@ C:\Users\Zhekunia\Source\Repos\EventAgency1\WpfApp5\obj\Debug\EventAgencyApp.csp
 C:\Users\Zhekunia\Source\Repos\EventAgency1\WpfApp5\obj\Debug\WpfApp5.exe
 C:\Users\Zhekunia\Source\Repos\EventAgency1\WpfApp5\obj\Debug\WpfApp5.pdb
 C:\Users\Zhekunia\Source\Repos\EventAgency1\WpfApp5\obj\Debug\WpfApp5.Migrations.in13.resources
+C:\Users\legen\OneDrive\Рабочий стол\Coding\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Migrations.in13.resources
