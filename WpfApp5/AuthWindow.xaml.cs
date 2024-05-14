@@ -55,7 +55,7 @@ namespace WpfApp5
                         {
                             if (user.Password == PasswordTBox.Password)
                             {
-                                EventsWindow eventsWindow = new EventsWindow();
+                                EventsWindow eventsWindow = new EventsWindow(user.Id);
                                 eventsWindow.Show();
                                 this.Close();
                             }
@@ -83,7 +83,7 @@ namespace WpfApp5
 
         private void EventsButton_OnClick(object sender, RoutedEventArgs e)
         {
-            EventsWindow window = new EventsWindow();
+            EventsWindow window = new EventsWindow(null);
             window.Show();
             Close();
         }

@@ -20,25 +20,59 @@ namespace WpfApp5
     /// </summary>
     public partial class EventsWindow : Window
     {
+        public User User { get; set; }
+        public readonly List<string> Sorts = new List<string>() { "Id", "Название", "Дата начала", "Дни", "Город" };
         private static List<Event> Events = new List<Event>();
+        public EventsWindow(int? id)
+        {
+            using (var db = new ModelEvent())
+            {
+                Events = db.Event.Include("City").ToList();
+            }
+            if (id != null)
+            {
+                using (var db = new ModelEvent())
+                {
+                    User = db.User.Find(id);
+                }
+            }
+            this.Resources.Add("k", Events);
+            this.Resources.Add("Sorts", Sorts);
+            InitializeComponent();
+        }
+
         public EventsWindow()
         {
             using (var db = new ModelEvent())
             {
                 Events = db.Event.Include("City").ToList();
             }
+            
+            
             this.Resources.Add("k", Events);
+            this.Resources.Add("Sorts", Sorts);
             InitializeComponent();
         }
 
         private void FilterButton_OnClick(object sender, RoutedEventArgs e)
         {
-            using (var db = new ModelEvent())
+            if (string.IsNullOrEmpty(SearchTextBox.Text))
             {
-                Events = db.Event.Include("City").Where(o=>o.EventName.Contains(SearchTextBox.Text)).ToList();
+                using (var db = new ModelEvent())
+                {
+                    Events = db.Event.Include("City").ToList();
+                }
+            }
+            else
+            {
+                using (var db = new ModelEvent())
+                {
+                    Events = db.Event.Include("City").Where(o => o.EventName.Contains(SearchTextBox.Text)).ToList();
+                }
+                SortComboBox.SelectedIndex = 0;
+                this.Resources["k"]= Events;
             }
 
-            this.Resources["k"]= Events;
         }
 
         private void LoginButton_OnClick(object sender, RoutedEventArgs e)
@@ -52,10 +86,33 @@ namespace WpfApp5
         {
             using (var db = new ModelEvent())
             {
-                Events = db.Event.Include("City").Where(o=>o.StartDate == DatePicker.SelectedDate).ToList();
+                Events = db.Event.Include("City").Where(o => o.StartDate == DatePicker.SelectedDate).ToList();
             }
             this.Resources["k"]= Events;
+            SortComboBox.SelectedIndex = 0;
 
+        }
+
+        private void SortComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            switch (SortComboBox.SelectedIndex)
+            {
+                case 0:
+                    this.Resources["k"]=Events.OrderBy(o => o.Id);
+                    break;
+                case 1:
+                    this.Resources["k"]=Events.OrderBy(o => o.EventName);
+                    break;
+                case 2:
+                    this.Resources["k"]= Events.OrderBy(o => o.StartDate);
+                    break;
+                case 3:
+                    this.Resources["k"] = Events.OrderBy(o => o.DaysCount);
+                    break;
+                case 4:
+                    this.Resources["k"]=Events.OrderBy(o => o.City.CityName);
+                    break;
+            }
         }
     }
 }

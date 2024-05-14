@@ -11,7 +11,8 @@ namespace WpfApp5
         Member,
         Organizer,
         Moderator,
-        Judge
+        Judge,
+        Unknown
     }
     public enum Gender
     {
