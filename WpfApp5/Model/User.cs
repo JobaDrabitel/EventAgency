@@ -22,7 +22,8 @@ namespace WpfApp5.Model
             Activity6 = new HashSet<Activity>();
         }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [StringLength(120)]

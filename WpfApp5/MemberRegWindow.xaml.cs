@@ -52,12 +52,16 @@ namespace WpfApp5
                 {
                     using (ModelEvent db = new ModelEvent())
                     {
-                        
+
                         var user = new User() { UserName = FullNameTextBlock.Text.Trim(), Email = EmailTextBlock.Text.Trim().ToLower(), Password = PasswordTextBlock.Password, Phone = PhoneTextBlock.Text.Trim() };
-                        if(!db.User.Any(u => (u.Email.Trim().ToLower() == user.Email)))
+                        if (!db.User.Any(u => (u.Email.Trim().ToLower() == user.Email)))
                         {
                             db.User.Add(user);
                             db.SaveChanges();
+                            MessageBox.Show("Регистрация успешна");
+                            AuthWindow authWindow = new AuthWindow();
+                            authWindow.Show();
+                            this.Close();
                         }
                         else
                         {

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WpfApp5.Model;
 
 namespace WpfApp5
 {
@@ -19,9 +20,30 @@ namespace WpfApp5
     /// </summary>
     public partial class UserRegWindow : Window
     {
+        public User User { get; set; }
+        public UserRegWindow(int id)
+        {
+
+            try
+            {
+                using (ModelEvent db = new ModelEvent())
+                {
+                    User = db.User.Find(id);
+                }
+            }
+            catch
+            {
+                this.Close();
+            }
+
+            InitializeComponent();
+        }
+
         public UserRegWindow()
         {
-            InitializeComponent();
+            AuthWindow authWindow = new AuthWindow();
+            authWindow.Show();
+            this.Close();
         }
     }
 }
