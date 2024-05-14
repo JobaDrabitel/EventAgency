@@ -80,5 +80,12 @@ namespace WpfApp5
                 MessageBox.Show("Введите Id");
             }
         }
+
+        private void EventsButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            EventsWindow window = new EventsWindow();
+            window.Show();
+            Close();
+        }
     }
 }
