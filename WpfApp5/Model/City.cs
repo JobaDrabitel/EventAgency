@@ -14,8 +14,8 @@ namespace WpfApp5.Model
         {
             Event = new HashSet<Event>();
         }
-
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Column(TypeName = "image")]

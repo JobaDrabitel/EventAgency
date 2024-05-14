@@ -70,17 +70,13 @@
     <Compile Include="EventsWindow.xaml.cs">
       <DependentUpon>EventsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202405071049417_AddCompanyMigration.cs" />
-    <Compile Include="Migrations\202405071049417_AddCompanyMigration.designer.cs">
-      <DependentUpon>202405071049417_AddCompanyMigration.cs</DependentUpon>
+    <Compile Include="Migrations\202405141821540_in10.cs" />
+    <Compile Include="Migrations\202405141821540_in10.designer.cs">
+      <DependentUpon>202405141821540_in10.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202405130707326_in2.cs" />
-    <Compile Include="Migrations\202405130707326_in2.designer.cs">
-      <DependentUpon>202405130707326_in2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202405130713488_in3.cs" />
-    <Compile Include="Migrations\202405130713488_in3.designer.cs">
-      <DependentUpon>202405130713488_in3.cs</DependentUpon>
+    <Compile Include="Migrations\202405141826213_in11.cs" />
+    <Compile Include="Migrations\202405141826213_in11.designer.cs">
+      <DependentUpon>202405141826213_in11.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Activity.cs" />
@@ -96,6 +92,9 @@
     <Compile Include="Role.cs" />
     <Compile Include="UserRegWindow.xaml.cs">
       <DependentUpon>UserRegWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserWindow.xaml.cs">
+      <DependentUpon>UserWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Validator.cs" />
     <Page Include="AuthWindow.xaml">
@@ -129,6 +128,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -144,14 +147,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Migrations\202405071049417_AddCompanyMigration.resx">
-      <DependentUpon>202405071049417_AddCompanyMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202405141821540_in10.resx">
+      <DependentUpon>202405141821540_in10.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202405130707326_in2.resx">
-      <DependentUpon>202405130707326_in2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202405130713488_in3.resx">
-      <DependentUpon>202405130713488_in3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202405141826213_in11.resx">
+      <DependentUpon>202405141826213_in11.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

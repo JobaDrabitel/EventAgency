@@ -58,6 +58,10 @@ namespace WpfApp5
                         {
                             db.User.Add(user);
                             db.SaveChanges();
+                            MessageBox.Show("Регистрация успешна");
+                            AuthWindow authWindow = new AuthWindow();
+                            authWindow.Show();
+                            this.Close();
                         }
                         else
                         {

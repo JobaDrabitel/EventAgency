@@ -9,7 +9,8 @@ namespace WpfApp5.Model
     [Table("Activity")]
     public partial class Activity
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [StringLength(250)]
