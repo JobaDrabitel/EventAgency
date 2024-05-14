@@ -30,5 +30,10 @@ namespace WpfApp5
             this.Resources.Add("k", Events);
             InitializeComponent();
         }
+
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
