@@ -21,7 +21,7 @@ namespace WpfApp5
     public partial class ModeratorRegWindow : Window
     {
         public IEnumerable<Gender> Genders = Enum.GetValues(typeof(Gender)).Cast<Gender>();
-        public IEnumerable<Role> Roles = new List<Role>() {Role.Moderator, Role.Judge };
+        public IEnumerable<Role> Roles = new List<Role>() { Role.Moderator, Role.Judge };
         public IEnumerable<Activity> Events = new List<Activity>();
         public ModeratorRegWindow()
         {
@@ -54,7 +54,7 @@ namespace WpfApp5
                     {
                         user.Role = 2;
                         user.Specialization = SpecTextBlock.Text.Trim();
-                        
+
                     }
                     else
                     {
@@ -67,10 +67,13 @@ namespace WpfApp5
                         if (!db.User.Any(u => (u.Email.Trim().ToLower() == user.Email)))
                         {
                             db.User.Add(user);
-                            
+
                             var activity = (Activity)EventComboBox.SelectedItem;
-                            var found = db.Activity.Find(activity.Id);
-                            found.User = user;
+                            if ((bool)AddToEventCheckBox.IsChecked)
+                            {
+                                var found = db.Activity.Find(activity.Id);
+                                found.User = user;
+                            }
                             db.SaveChanges();
                             MessageBox.Show("Регистрация успешна");
                             AuthWindow authWindow = new AuthWindow();

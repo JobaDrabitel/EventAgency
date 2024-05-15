@@ -55,7 +55,7 @@ namespace WpfApp5
                         {
                             if (user.Password == PasswordTBox.Password)
                             {
-                                EventsWindow eventsWindow = new EventsWindow(user.Id);
+                                UserWindow eventsWindow = new UserWindow(user.Id);
                                 eventsWindow.Show();
                                 this.Close();
                             }

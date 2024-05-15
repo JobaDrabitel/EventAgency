@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApp5.MembersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="Участники"  Height="620" Width="800" MinWidth="700" MinHeight="160">
+    <Grid>
+        <StackPanel VerticalAlignment="Bottom" Height="160">
+            <ListView x:Name="lista" Margin="5" ItemsSource="{DynamicResource ResourceKey=A}" IsSynchronizedWithCurrentItem="True">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=Id}">Id</GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=ActivityName}" Width="100">Название</GridViewColumn>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+        <StackPanel Height="70" VerticalAlignment="Top" Orientation="Horizontal">
+            <Button Margin="5" Width="80" Height="20" x:Name="LoginButton" HorizontalAlignment="Left" Content="Профиль" VerticalAlignment="Center" Click="LoginButton_Click" />
+
+        </StackPanel>
+        <ListView x:Name="listi" Margin="5, 80, 5, 160" ItemsSource="{DynamicResource ResourceKey=k}" IsSynchronizedWithCurrentItem="True" SelectionChanged="listi_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Id}">Id</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=UserName}" Width="100">Имя</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Gender}" >Пол</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=BirthDate}">ДР</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Phone}">Телефон</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Email}">Мыло</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Country.CountryNameRU}">Страна</GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

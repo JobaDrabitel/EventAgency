@@ -39,6 +39,11 @@ namespace WpfApp5
             this.Resources.Add("k", Events);
             this.Resources.Add("Sorts", Sorts);
             InitializeComponent();
+            LoginButton.Visibility = Visibility.Collapsed;
+            if (User.Role == ((int)Role.Organizer)||true)
+            {
+                ModerStackPanel.Visibility = Visibility.Visible;
+            }
         }
 
         public EventsWindow()
@@ -47,11 +52,12 @@ namespace WpfApp5
             {
                 Events = db.Event.Include("City").ToList();
             }
-            
-            
+
+
             this.Resources.Add("k", Events);
             this.Resources.Add("Sorts", Sorts);
             InitializeComponent();
+            ProfileButton.Visibility = Visibility.Collapsed;
         }
 
         private void FilterButton_OnClick(object sender, RoutedEventArgs e)
@@ -113,6 +119,59 @@ namespace WpfApp5
                     this.Resources["k"]=Events.OrderBy(o => o.City.CityName);
                     break;
             }
+        }
+
+        private void RemoveButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (listi.SelectedItem != null)
+            {
+                try
+                {
+                    var selected = (Event)listi.SelectedItem;
+                    if (MessageBox.Show("Удалить?", "Удалить запись", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                    {
+                        using (var db = new ModelEvent())
+                        {
+                            var found = db.Event.Find(selected.Id);
+                            db.Event.Remove(found);
+                            db.SaveChanges();
+                            EventsWindow eventsWindow = new EventsWindow(User.Id);
+                            eventsWindow.Show();
+                            this.Close();
+                        }
+                    }
+                }
+                catch { }
+            }
+        }
+
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+            EventDetailsWindow eventDetailsWindow = new EventDetailsWindow(this);
+            eventDetailsWindow.Show();
+            EventsWindow eventsWindow = new EventsWindow(User.Id);
+            eventsWindow.Show();
+            this.Close();
+        }
+
+        private void UpdateButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (listi.SelectedItem != null)
+            {
+                var selected = (Event)listi.SelectedItem;
+                EventDetailsWindow eventDetailsWindow = new EventDetailsWindow(selected.Id, this);
+                eventDetailsWindow.Show();
+                EventsWindow eventsWindow = new EventsWindow(User.Id);
+                eventsWindow.Show();
+                this.Close();
+            }
+        }
+
+        private void ProfileButton_Click(object sender, RoutedEventArgs e)
+        {
+            UserWindow userWindow = new UserWindow(User.Id);
+            userWindow.Show();
+            this.Close();
         }
     }
 }

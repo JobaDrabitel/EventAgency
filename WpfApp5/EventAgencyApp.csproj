@@ -67,8 +67,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EventDetailsWindow.xaml.cs">
+      <DependentUpon>EventDetailsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EventsWindow.xaml.cs">
       <DependentUpon>EventsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MembersWindow.xaml.cs">
+      <DependentUpon>MembersWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202405142022150_in13.cs" />
     <Compile Include="Migrations\202405142022150_in13.designer.cs">
@@ -86,11 +92,15 @@
       <DependentUpon>ModeratorRegWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Role.cs" />
-    <Compile Include="UserRegWindow.xaml.cs">
-      <DependentUpon>UserRegWindow.xaml</DependentUpon>
+    <Compile Include="UserWindow.xaml.cs">
+      <DependentUpon>UserWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Validator.cs" />
     <Page Include="AuthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EventDetailsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -113,11 +123,15 @@
       <DependentUpon>MemberRegWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MembersWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ModeratorRegWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UserRegWindow.xaml">
+    <Page Include="UserWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
